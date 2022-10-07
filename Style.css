@@ -1,0 +1,41 @@
+#Container-fluid{
+    border-color: #82F8B8;
+}
+
+.Main-Header{
+    text-align: center;
+    background-color: #82F8B8;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+a:link {text-decoration: none;}
+
+.Header-Menu{
+    text-align: center;
+}
+ul.Header-List{
+    display: flex;
+    list-style:none;
+}
+
+li.Header-Option{
+    margin: 10px 10px;
+}
+
+#Article-title{
+    text-align: center;
+}
+
+.Article-text{
+    font-size: large;
+}
+
+.Article-parent{
+    text-align: center;
+}
+
+.Article-child{
+    display: inline-block;
+    vertical-align: middle;
+}
