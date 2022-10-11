@@ -6,6 +6,10 @@ body{
     margin:0px;
 }
 
+article{
+    margin: 0px 10%;
+}
+
 .Main-Header{
     text-align: center;
     background-color: #82F8B8;
@@ -18,6 +22,7 @@ a:link {text-decoration: none;}
 .Header-Menu{
     text-align: center;
 }
+
 ul.Header-List{
     display: flex;
     list-style:none;
@@ -27,19 +32,32 @@ li.Header-Option{
     margin: 10px 10px;
 }
 
-#About-title{
-    text-align: center;
-}
-
-.About-text{
-    font-size: large;
-}
 
 .Article-parent{
     text-align: center;
 }
 
+.Article-parent::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
 .Article-child{
-    display: inline-block;
-    vertical-align: middle;
+    text-align: center;
+    float: left;
+    width: 50%;
+}
+
+#About-title{
+    text-align: center;
+}
+
+#About-text{
+    font-size: large;
+}
+
+#About-image{
+    width: 50%;
+    height: auto;
 }
