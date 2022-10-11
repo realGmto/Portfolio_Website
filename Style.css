@@ -23,10 +23,20 @@ a:link {text-decoration: none;}
     text-align: center;
 }
 
-ul.Header-List{
-    display: flex;
-    list-style:none;
+.Header-List{
+    padding-left: 0;
+    text-align: center;
+    list-style-type:none;
 }
+
+.Header-List li{
+    display: inline-block;
+    font-size: 15px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+
 
 li.Header-Option{
     margin: 10px 10px;
