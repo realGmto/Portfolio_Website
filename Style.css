@@ -9,3 +9,7 @@ header a:hover{
     color: white;
     font-weight: bold;
 }
+
+p{
+    text-shadow: 3px;
+}

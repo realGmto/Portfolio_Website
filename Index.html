@@ -9,34 +9,78 @@
     <link rel="stylesheet" href="Style.css">
   </head>
   <body>
-    <div class="container">
-        <header class="bg-success text-white">
+    <div class="container-fluid px-0">
+        <header class="bg-success text-white rounded-bottom">
             <div class="text-center">
                 <h1 style="margin-top: 0px;">Nikola Muženjak</h1>
                 <h3>Software Engineer</h3>
             </div>
-            <div class="row" data-spy="affix" data-offset-top="205">
+            <div class="row">
                 <div class="col-lg-4 text-end"><a href="#">Home</a></div>
                 <div class="col-lg-4 text-center"><a href="#">Skills</a></div>
                 <div class="col-lg-4 text-start"><a href="#">Contact</a></div>
             </div>
         </header>
-        <article>
+        <article class="container mb-4 pb-4 border-bottom">
             <div id="About">
-                <h2 id="About-title">About Me</h2>
-                <div class="Article-Parent" id="About-text">
-                    <div class="Article-child">
-                        <p id="About-text">Some text that needs to be filled. Now this needs some aditional testing to see if this works</p>
+                <h2 id="About-title" class="text-center">About Me</h2>
+                <div class="row" id="About-text">
+                    <div class="col-lg-6">
+                        <p id="About-text" class="text-justify">Some text that needs to be filled. Now this needs some aditional testing to see if this works</p>
                     </div>
-                    <div class="Article-child">
-                        <img id="About-image" src="Template.jpg" alt="Nikola Muženjak">
+                    <div class="col-lg-6">
+                        <img id="About-image" src="Template.jpg" alt="Nikola Muženjak" class="img-fluid img-rounded">
                     </div>
                 </div>
             </div>
-            <div id="Skills">
-                <h2 id="Skills-title"></h2>
-            </div>
         </article>
+        <div id="Skills" class="container-fluid px-0 bg-success text-white">
+            <h2 id="Skills-title" class="text-center">Skills</h2>
+            <div class="row px-5">
+                <div class="col-lg-2">
+                    <div class="thumbnail">
+                        <a href="./Logo/C_logo.png">
+                            <img src="./Logo/C_logo.png" class="img-circle img-fluid">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="thumbnail">
+                        <a href="./Logo/C-Sharp-logo.png">
+                            <img src="./Logo/C-Sharp-logo.png" class="img-circle img-fluid">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="thumbnail">
+                        <a href="./Logo/HTML5logo.png">
+                            <img src="./Logo/HTML5logo.png" class="img-circle img-fluid">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="thumbnail">
+                        <a href="./Logo/bootstrap_logo.png">
+                            <img src="./Logo/bootstrap_logo.png" class="img-circle img-fluid">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="thumbnail">
+                        <a href="./Logo/MySQL-Logo.png">
+                            <img src="./Logo/MySQL-Logo.png" class="img-circle img-fluid">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="thumbnail">
+                        <a href="./Logo/Python-logo.png">
+                            <img src="./Logo/Python-logo.png" class="img-circle img-fluid">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
   </body>
 </html>
