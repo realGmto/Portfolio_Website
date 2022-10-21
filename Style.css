@@ -20,7 +20,14 @@ p{
     text-shadow: 3px;
 }
 
-#About_text_container {
-    border-right: 1ex;
-    border-color: #252529;
+#Left_article{
+    background-image: linear-gradient(to Right,#252529,#6C757D);
+}
+
+#Right_article{
+    background-image: linear-gradient(to Left,#252529,#6C757D);
+}
+
+#Skills{
+    background-color: #45494F;
 }
