@@ -1,8 +1,9 @@
 header{
     border-bottom: 1ex;
     border-color: #45494F;
+    background-color: #32CD32;
+    background-image: linear-gradient(to Bottom,#8BC34A,#AED581);
 }
-
 
 header a{
     text-decoration: none;
@@ -21,19 +22,24 @@ p{
 }
 
 #Left_article{
-    background-image: linear-gradient(to Right,#252529,#6C757D);
+    background-image: linear-gradient(to Right,#8BC34A,#d8eec0);
 }
 
 #Right_article{
-    background-image: linear-gradient(to Left,#252529,#6C757D);
+    background-image: linear-gradient(to Left,#8BC34A,#d8eec0);
 }
 
 #Skills{
-    background-color: #45494F;
+    background-image: -webkit-radial-gradient(center,ellipse cover,#8BC34A,#AED581);
 }
 
 .sticky{
+    background-color: #8BC34A;
     position: fixed;
     top: 0;
     width: 100%;
+}
+
+article{
+    background-color: #d8eec0;
 }
