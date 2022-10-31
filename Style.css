@@ -31,3 +31,9 @@ p{
 #Skills{
     background-color: #45494F;
 }
+
+.sticky{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
